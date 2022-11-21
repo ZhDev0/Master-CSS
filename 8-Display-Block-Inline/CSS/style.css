@@ -1,0 +1,47 @@
+/* 
+    Block
+        - Takes Full Width IF You Didn't specified a Width
+        - Block Element Add a Line-Break before and after It
+        - Respect Padding, Margin, Width, Height
+
+    Inline
+        - Do Not Respect Width, Height
+        - Respect Padding, Margin [ Just Left And Right ]
+        - Do Not Add Line Break
+        - Allow Elements Before And After It
+
+    Inline-Block
+        - Allow Elements Before And After It
+        - Respect Padding, Margin, Width, Height
+*/
+
+span {
+    background-color: #EEE;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    height: 50px;
+}
+
+/* span {
+    background-color: #EEE;
+    width: 400px;
+    height: 100px;
+    padding: 10px;
+    margin: 20px;
+    display: block;
+} */
+
+
+
+
+div {
+    background-color: #EEE;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    height: 30px;
+}
+
+/* to make inline element => block element use display: block; */
