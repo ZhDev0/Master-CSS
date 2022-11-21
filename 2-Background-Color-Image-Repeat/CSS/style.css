@@ -1,0 +1,23 @@
+div {
+    background-color: red; /* Color Name */
+    background-color: rgb(255, 255, 255); /* Intensity of Red Intensity of Green Intensity of Blue */
+    background-color: rgba(0 0 0 /50%); /* Intensity of Red Intensity of Green Intensity of Blue Alpha Channel */
+    background-image: url("../Img/Cat.jpg");
+    /* background-repeat: no-repeat;
+    background-repeat: repeat;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y; */
+    
+}
+/*
+# RR GG BB
+# => Signifies Hex Color Code
+Each of the two-digit color codes are in the range 00..ff Hexadecimal
+Examples : #FFCC99  #3C00A6
+*/
+
+/* div {
+    background-color: #00FF00;   if we want green // Color Hex Code
+    background-color: #FF0000;   if we want red   // Color Hex Code
+    background-color: #0000FF;  if we want blue   // Color Hex Code
+} */

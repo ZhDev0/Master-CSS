@@ -1,0 +1,19 @@
+div {
+    background-image: url("../Img/Cat.jpg");
+    background-repeat: no-repeat;
+    /* background stays at it place not moving when you are scrolling */
+    background-attachment: scroll;
+    /* background moves with you once you scroll */
+    /* background-attachment: fixed; */
+    background-position: left top; /* Left top | right top | left bottom | right bottom | center top | center center | center bottom | right center */
+    /* with percentage or px */
+    background-position: 400px 100px;  /* (moves from left) (moves from top) */
+    /* center the image */
+    background-position: 50% 50%;
+    /* cover it covers all of your content and it does stretch*/
+    background-size: cover;  /* auto is the default value*/
+    /**/
+    background-size: contain; /* does not stretch and it can be cut */
+    /* fills all the content */
+    background-size: 100% 100%;
+}

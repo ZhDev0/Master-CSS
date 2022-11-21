@@ -1,0 +1,35 @@
+/* Selector {
+    Property: Value;
+    PropertyTwo: Value;
+} */
+
+/* Target All Paragraphs */
+p {
+    color: red;
+    font-size: 40px;
+}
+/* Target a specific class */
+.myp {
+    color: green;
+    font-size: 40px;
+}
+/* Target a specific id */
+#myp {
+    color: blue;
+    font-size: 40px;
+}
+
+/* Name Conventions And Rules */
+/*
+// Good
+.class-name {
+
+}
+// Bad
+.ClassName {
+
+}
+.class_name {
+
+}
+*/
