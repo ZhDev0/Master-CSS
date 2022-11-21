@@ -1,0 +1,13 @@
+div {
+    margin-top: -20px;
+    background-color: #DDD;
+    width: 70%;
+    margin: auto;
+    border-width: 10px;
+    /* border-color: red green blue yellow; */
+    border-color: red;
+    /* border-style: solid dotted dashed solid; */
+    border-style: solid;  /* Type of Border (dashed | dotted | double | groove) */
+    /* Short Cut Of Above */
+    border: 10px solid red;
+}
