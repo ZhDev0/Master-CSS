@@ -1,0 +1,24 @@
+div {
+    background-color: #DDD;
+    width: 300px;
+    padding: 10px;
+    /* border: 10px solid red; */
+    border-left: 10px solid red;
+    border: 10px solid blue;
+    border-radius: 90px;
+    outline: 10px solid red;
+    /* outline-style: dashed; */
+    /* border-style: dashed dotted solid solid; */
+    /* outline means out side of my elements above the border */
+    /* outline: 10px solid blue; */
+}
+/* width = 300 once we add padding to it like padding: 10px;width becomes 320px because the padding will be added on all the direction top right bottom and left so you will have 10px right and 10px left so it will be 20px added to the original width
+*/
+/* Also One We Added Border 10px the total becames 340px
+    Width is 300px 
+    padding 10px so we have 10 right and 10 left + width => 320px
+    plus border 10px from all direction so we have 10px right and 10px left Plus the above it becames 340px
+*/
+
+/* Outline is something out side of an element so the above stays the same at 340px */
+/* Once we use box-sizing the border does not count as an additional space to the final calculation above statys at 320px not 340px only if we use box-sizing but for this case it is going to be 340px of width */
