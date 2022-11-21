@@ -1,0 +1,11 @@
+/* you can give a negative value to margin */
+div {
+    margin-top: -20px;
+    background-color: red;
+    /* To Center The Element */
+    width: 70%;
+    /* margin: 0 15% 0; */
+    /* Or  */
+    margin-left: auto;
+    margin-right: auto;
+}
