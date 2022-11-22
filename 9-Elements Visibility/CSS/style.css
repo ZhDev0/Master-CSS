@@ -1,0 +1,11 @@
+div {
+    background-color: red;
+    margin: 10px 0;
+    /* display: none; */
+    /* visibility: visible;  Default Value is Visible */
+}
+
+.first {
+    /* display: none; */ /* the element disapeared and also it place */
+    visibility: hidden; /* the element disapeared and it place stays */
+}

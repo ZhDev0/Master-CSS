@@ -1,0 +1,55 @@
+/* .one {
+    padding: 10px;
+    border-bottom: 2px solid red;
+    color: red;
+    margin: 10px 0;
+    background-color: #EEE;
+}
+.two {
+    padding: 10px;
+    border-bottom: 2px solid green;
+    color: green;
+    margin: 10px 0;
+    background-color: #EEE;
+}
+.three {
+    padding: 10px;
+    border-bottom: 2px solid blue;
+    color: blue;
+    margin: 10px 0;
+    background-color: #EEE;
+}
+.four {
+    padding: 10px;
+    border-bottom: 2px solid black;
+    color: black;
+    margin: 10px 0;
+    background-color: #EEE;
+} */
+
+.one,
+.two,
+.three,
+.four,
+.my-p {
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #EEE;
+}
+
+.one {
+    border-bottom: 2px solid red;
+    color: red;
+}
+.two {
+    border-bottom: 2px solid green;
+    color: green;
+}
+.three {
+    border-bottom: 2px solid blue;
+    color: blue;
+}
+.four {
+    border-bottom: 2px solid black;
+    color: black;
+}
